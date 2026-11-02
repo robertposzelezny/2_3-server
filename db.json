@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Pierwszy post",
+      "body": "Treść pierwszego posta",
+      "author": "Robert"
+    },
+    {
+      "id": 2,
+      "title": "Drugi post",
+      "body": "Treść drugiego posta",
+      "author": "Anna"
+    },
+    {
+      "id": 3,
+      "title": "Trzeci post",
+      "body": "Treść trzeciego posta",
+      "author": "Marek"
+    }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "author": "Kasia", "body": "Świetny post!" },
+    { "id": 2, "postId": 1, "author": "Tomek", "body": "Zgadzam się" },
+    { "id": 3, "postId": 2, "author": "Ola", "body": "Ciekawe" },
+    { "id": 4, "postId": 3, "author": "Piotr", "body": "Czekam na więcej" }
+  ],
+  "ratings": [
+    { "id": 1, "postId": 1, "value": 5 },
+    { "id": 2, "postId": 1, "value": 4 },
+    { "id": 3, "postId": 2, "value": 3 },
+    { "id": 4, "postId": 3, "value": 5 }
+  ]
+}
